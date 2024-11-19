@@ -1,0 +1,21 @@
+
+:root{
+    --base: black;
+    --primary:white;
+    --secondry:#555555;
+    /* --theme:#800020; */
+    --theme:#E50914;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background:#131212;
+    color:var(--primary)
+}
+body{
+    font-family:roboto, sans-serif;
+}

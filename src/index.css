@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .flx-center {
+      @apply flex flex-col items-center justify-center text-3xl;
+    }
+
+    .theme-btn{
+      @apply bg-[var(--theme)] p-2 rounded-sm hover:bg-white hover:text-black;
+    }
+    .theme-text{
+      @apply text-[var(--theme)];
+    }
+    .before-elem{
+      @apply absolute top-1 w-6 h-6 rounded-full border-2 border-red-600 bg-[#131212] -left-[34px];
+    }
+  }
