@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div>
-     <BrowserRouter>
+     <BrowserRouter >
      <Navbar />
       <Routes>
         <Route path="/" element={<Layout />}>
