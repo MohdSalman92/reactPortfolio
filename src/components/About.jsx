@@ -19,9 +19,9 @@ const About = () => {
 
       <div className="info grid md:grid-cols-2 p-3">
         <div className="left">
-          <div class="relative h-64 w-64  mx-auto border-8 p-2 mt-20">
+          <div className="relative h-64 w-64  mx-auto border-8 p-2 mt-20">
             <img
-              class="absolute -top-7 -left-7 h-full w-full object-cover "
+              className="absolute -top-7 -left-7 h-full w-full object-cover "
               src={aboutPic}
               alt=""
             />
